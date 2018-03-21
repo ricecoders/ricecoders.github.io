@@ -1,0 +1,31 @@
+.everything
+{
+    font: 12px Verdana;
+    background: beige;
+}
+
+h1
+{
+    font: 36px Verdana;
+    background-color: lightgray;
+    color: azure;
+    text-align: center;
+}
+
+.title
+{
+    background-color: lightgray;
+    padding: 0px;
+    border: 6px solid grey;
+    margin: 5px 20px;
+    border-radius: 10px 30px;
+}
+
+.content
+{
+    background-color: #f3f3f3;
+    border: 6px solid lightgrey;
+    padding: 10px 10px 35px 20px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
