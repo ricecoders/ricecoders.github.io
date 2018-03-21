@@ -1,0 +1,26 @@
+.
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p, li, a
+{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+main
+{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+header
+{
+    text-align: center;
+    background-color: #49c5ff;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    height: 50px;
+    border-radius: 10px 10px 20px 20px;
+}
