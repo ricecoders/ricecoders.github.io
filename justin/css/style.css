@@ -49,9 +49,9 @@ nav
     margin-bottom: 5px;;
     height: 60%;
     
-    width: 31%;
-    margin-left: 9%;
-    margin-right: 9%;
+    width: 30%;
+    margin-left: calc(10% - 4px);
+    margin-right: calc(10% - 4px);
     
     text-align: center;
     float: left;
@@ -66,4 +66,29 @@ nav
 {
     background-color: white;
     border: #00aeff 4px solid;
+}
+
+/* IFRAME */
+iframe
+{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    height: 400px;
+}
+
+ /* PDF-CONTAINER */
+.pdf-container
+{
+    height: 500px;
+    background-color: beige;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
