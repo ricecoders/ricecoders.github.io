@@ -4,9 +4,13 @@
 	background-color: #000000;
 }
 
-li, a
+#links
 {
 	font-family: 'Ubuntu Mono', monospace;
+	float: left;
+	font-size: 16pt;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .profile
@@ -72,15 +76,20 @@ header
 .nav-sidebar
 {
     background-color: #8ddaff;
-    border: black solid 3px;
+    border: #8ddaff solid 3px;
+    font-size: 16pt;
     padding: 5px;
     margin-top: 19px;
     margin-right: 0;
     margin-left: -5px;
     float: left;
     width: 140px;
-    height: 100vw;
+    height: 40vw;
 } 
+#navlinks
+{
+	background-color: #8ddaff;
+}
 
 /*nav
 {
