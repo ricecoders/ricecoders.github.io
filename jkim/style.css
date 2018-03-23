@@ -4,15 +4,6 @@
 	background-color: #000000;
 }
 
-#links
-{
-	font-family: 'Ubuntu Mono', monospace;
-	float: left;
-	font-size: 16pt;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
 .profile
 {
 	float: left;
@@ -34,24 +25,24 @@ img
 
 a:link
 {
-    color: blue;
-    text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 a:visited
 {
-    color: blue;
-    text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 a:hover
 {
-    color: hotpink;
-    background-color: black;
-    text-decoration: none;
+	color: hotpink;
+	background-color: black;
+	text-decoration: none;
 }
 a:active
 {
-    color: blue;
-    text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 
 main
@@ -75,20 +66,44 @@ header
 
 .nav-sidebar
 {
-    background-color: #8ddaff;
-    border: #8ddaff solid 3px;
-    font-size: 16pt;
-    padding: 5px;
-    margin-top: 19px;
-    margin-right: 0;
-    margin-left: -5px;
-    float: left;
-    width: 140px;
-    height: 40vw;
+	background-color: #8ddaff;
+	border: #8ddaff solid 3px;
+	font-size: 16pt;
+	padding: 5px;
+	margin-top: 19px;
+	margin-right: 0;
+	margin-left: -5px;
+	float: left;
+	width: 140px;
+	height: 40vw;
 } 
 #navlinks
 {
 	background-color: #8ddaff;
+	margin-bottom: 10px;
+}
+
+.nav-bottom
+{
+	background-color: #000000;
+	border: #000000 solid 3px;
+	font-size: 16pt;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	width: 100vw;
+	align-content: center;
+	position: fixed; bottom: 0; right: 0;
+}
+#links
+{
+	font-family: 'Ubuntu Mono', monospace;
+	float: right;
+	font-size: 16pt;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #000000;
 }
 
 /*nav
