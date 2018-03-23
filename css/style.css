@@ -7,3 +7,19 @@ p, li, a
 {
     font-family: 'Ubuntu Mono', monospace;
 }
+
+.nav-sidebar
+{
+    background-color: #8ddaff;
+    border: white solid 3px;
+    float: left;
+    width: 120px;
+    height: 100vw;
+}
+
+/* If screen width is less than 800px */
+/* ------------------------------------------- */
+@media screen and (max-width: 800px)
+{
+    /* -- Add responsive CSS here -- */
+}
