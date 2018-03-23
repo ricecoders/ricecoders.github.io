@@ -67,3 +67,10 @@ nav
     background-color: white;
     border: #00aeff 4px solid;
 }
+
+/* IFRAME */
+iframe
+{
+    margin-left: auto;
+    margin-right: auto;
+}
