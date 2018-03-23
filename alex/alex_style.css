@@ -1,21 +1,24 @@
-.everything
+/**
+*
 {
-    font: 1.5vw Verdana;
-    background: beige;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p, li, a
+{
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 h1
 {
-    font: 6vw Verdana;
-    background-color: lightgray;
-    color: azure;
+    font-size: 6vw;
     text-align: center;
 }
 
 .title
 {
     width: 95vw;
-    background-color: lightgray;
+    background-color: #49c5ff;
     border: 6px solid grey;
     margin: 1vw;
     border-radius: 10px 30px;
@@ -37,7 +40,8 @@ h1
 {
     float: left;
     width: 20%;
-    background-color: #f2f2f2;
+    height: 500px;
+    background-color: #4e3fff;
     border: 2px solid #8e8e8e;
     padding: 5px;
     margin: 1vw 0vw 1vw 2.5vw;
@@ -70,6 +74,7 @@ h1
     {
         width: 95%;
         margin: 0vw 2.5vw;
+        height: 5vw;
     }
     .content
     {
@@ -83,10 +88,17 @@ h1
     }
     .explore
     {
-        float: right;
-        margin: 0.5vw 0;
-        margin-right: 10vw;
+        float: left;
+        margin-left: 5vw;
         font-size: 3.5vw;
+        
+    }
+    .home
+    {
+       float: right;
+       margin: 0.5vw 0;
+       margin-right: 10vw;
+       font-size: 3.5vw; 
     }
     
 }
