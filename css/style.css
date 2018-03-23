@@ -12,6 +12,9 @@ p, li, a
 {
     background-color: #8ddaff;
     border: white solid 3px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: -5px;
     float: left;
     width: 120px;
     height: 100vw;
