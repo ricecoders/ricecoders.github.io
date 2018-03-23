@@ -4,26 +4,122 @@
     background-color: #000000;
 }
 
-p, li, a
+p
 {
-    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+
+main
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #000000;
+}
+
+header
+{
+	text-align: center;
+	background-color: #49c5ff;
+	margin-left: 10%;
+	margin-right: 5%;
+	font-size: 3vw;
+	
+	height: 6vw;
+	border-radius: 10px 10px 20px 20px;
+}
+
+.ricecoders
+{
+    margin: 1vw 5vw;
+    background: white;
+    border-radius: 10px 10px 20px 20px;
+}
+
+.content
+{
+    float: left;
+    width: calc(85vw - 140px);
+    margin-top: 2vw;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.image
+{
+    background: white;
+    width: 23%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.image.all
+{
+    display: block;
+    padding: 2vw 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a:link
+{
+	color: blue;
+	text-decoration: none;
+}
+a:visited
+{
+	color: blue;
+	text-decoration: none;
+}
+a:hover
+{
+	color: hotpink;
+	background-color: black;
+	text-decoration: none;
+}
+a:active
+{
+	color: blue;
+	text-decoration: none;
+}
+
+#navlinks
+{
+	background-color: #8ddaff;
+	margin-bottom: 10px;
 }
 
 .nav-sidebar
 {
     background-color: #8ddaff;
-    border: white solid 3px;
-    padding: 5px;
-    margin-right: 5px;
-    margin-left: -5px;
-    float: left;
-    width: 120px;
-    height: 100vw;
+	border: #8ddaff solid 3px;
+	font-size: 16pt;
+	padding: 5px;
+	margin-top: 19px;
+	margin-right: 0;
+	margin-left: -5px;
+	float: left;
+	width: 140px;
+	height: 40vw;
 }
 
-/* If screen width is less than 800px */
+/* If screen width is less than 1100px */
 /* ------------------------------------------- */
-@media screen and (max-width: 800px)
+@media screen and (max-width: 700px)
 {
     /* -- Add responsive CSS here -- */
+    .nav-sidebar
+    {
+        padding: 5px;
+        margin-top: 19px;
+        margin-right: 0;
+        margin-left: -5px;
+        float: left;
+        width: 20vw;
+        height: 40vw;
+    }
+    #navlinks
+    {
+        font-size: 3vw;
+    }
 }
