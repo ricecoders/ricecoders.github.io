@@ -82,4 +82,13 @@ iframe
 .pdf-container
 {
     height: 500px;
+    background-color: beige;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
