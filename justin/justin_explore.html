@@ -20,7 +20,7 @@
         <meta name = "viewport" content = "width = devicewidth, initial-scale = 1.0">
         
         <!-- External CSS -->
-        <link rel = "stylesheet" type = "text/css"  href = "css/style.css">
+        <link rel = "stylesheet" type = "text/css"  href = "../alex/alex_style.css">
         
         <!-- Google Material Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -32,27 +32,19 @@
         <!-- Internal CSS -->
         <style>
         
-            /* thing */
-			
-			body
-			{
-				margin: 0px;
-			}
-			
-			.container
-			{
-				margin: 0 auto;
-				max-width: 1360px;
-				width: 90%;
-			}
+            footer
+            {
+                text-align: center;
+            }
         
         </style>
         
     </head>
     
-    <body>
+    <body id = "#top">
     
-        <nav id = "#top">
+        <!--
+        <nav>
         
             <div class = "navbox">
             
@@ -67,33 +59,57 @@
             </div>
         
         </nav>
+        -->
         
         <header>
         
-            <h1>Welcome to Justin's Explore Page</h1>
+            Welcome to Justin's Explore Page
         
         </header>
         
+        <div class="nav-sidebar">
+            <a id = "navlinks" href="../index.html">Home</a><br>
+            <a id = "navlinks" href="../jkim.html">Jonathan Kim</a><br>
+            <a id = "navlinks" href="../alex/alex.html">Alex Zeng</a><br>
+            <a id = "navlinks" href="../dustin.html">Dustin Yang</a><br>
+            <a id = "navlinks" href="justin.html">Justin Zhu</a><br>
+        </div>
         
-        <main>
-        
-<!--            <p>This is a paragraph</p>-->
+        <p>Hi, I'm Justin. This is my Explore Page.</p>
             
-            <p>Hi, I'm Justin. This is my Explore Page.</p>
-            
+            <!--
             <div class = "pdf-container">
             
                 <h3>My Explore Task Computational Artifact:</h3>
                 <iframe src="http://docs.google.com/gview?url=http://ricecoders.github.io/justin/img/Comp_Artifact-4.pdf&embedded=true" frameborder="0"></iframe>
             
             </div>
+            -->
             
+            <!--
             <div class = "pdf-container">
             
                 <h3>My Explore Task Written Response:</h3>
                 <iframe src="http://docs.google.com/gview?url=http://ricecoders.github.io/justin/img/Written Piece-4.pdf&embedded=true" frameborder="0"></iframe>
             
             </div>
+            -->
+            
+            <div class = "content">
+            
+                <p class = "paragraph"> Explore Task Computational Artifact </p>
+                <embed src = "img/Comp_Artifact-4.pdf" width = "640" height = "480">
+            
+            </div>
+            
+            <div class = "content">
+            
+                <p class = "paragraph"> Explore Task Response </p>
+                <embed src = "img/Written%20Piece-4.pdf" width = "640" height = "480">
+            
+            </div>
+        
+        <main>
         
         </main>
         
