@@ -56,8 +56,8 @@ header
 {
 	text-align: center;
 	background-color: #49c5ff;
-	margin-left: 10%;
-	margin-right: 5%;
+	margin-left: 12%;
+	margin-right: 6%;
 	font-size: 3vw;
 	
 	height: 60px;
@@ -68,13 +68,13 @@ header
 {
 	background-color: #8ddaff;
 	border: #8ddaff solid 3px;
-	font-size: 16pt;
+	font-size: 18pt;
 	padding: 5px;
 	margin-top: 19px;
 	margin-right: 0;
 	margin-left: -5px;
 	float: left;
-	width: 140px;
+	width: 150px;
 	height: 40vw;
 } 
 #navlinks
@@ -85,25 +85,20 @@ header
 
 .nav-bottom
 {
-	background-color: #000000;
-	border: #000000 solid 3px;
-	font-size: 16pt;
-	margin-top: 100px;
-	margin-right: auto;
-	margin-left: auto;
+	background-color: #ffffff;
+	height: auto;
+	margin-top: 150px;
+	margin-left: -320px;
 	float: left;
-	width: 100vw;
 	align-content: center;
-	position: fixed; bottom: 0; right: 0;
+	position: static;
 }
 #links
 {
 	font-family: 'Ubuntu Mono', monospace;
-	float: right;
-	font-size: 16pt;
-	margin-left: 5%;
-	margin-right: 5%;
-	background-color: #000000;
+	float: left;
+	font-size: 36pt;
+	background-color: #555555;
 }
 
 /*nav
